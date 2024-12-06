@@ -1,0 +1,108 @@
+/* ปรับแต่ง Unordered List */
+ul {
+    list-style: inside url('https://pbs.twimg.com/media/GeGzgidawAA-w39?format=jpg&name=large');
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 16pt;
+    color: #8B0000;
+}
+
+/* ปรับแต่ง Heading */
+h1, .myh1 {
+    font-size: 36pt;
+    margin: 30px auto;
+    padding: 20px;
+    border: 3px solid #296ad9;
+    border-radius: 0%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+h1:hover {
+    background-color: #5594cb;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* สไตล์สำหรับ Body */
+body {
+    font-family: 'Kanit';
+    background: linear-gradient(135deg, #FAE0D8, #FFB6C1);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://pbs.twimg.com/media/GeGzgidawAA-w39?format=jpg&name=large');
+    background-size: 1980px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* สไตล์สำหรับฟอร์ม */
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #e93535;
+    box-shadow: 0 0 5px rgba(233, 53, 53, 0.5);
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #5594cb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #bb4b4b;
+}
+
+/* ปรับแต่งรูปภาพ */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+/* เพิ่ม Transition */
+a {
+    color: #e93535;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #a82b2b;
+}
